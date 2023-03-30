@@ -7,7 +7,7 @@ RM=rm -f
 CPPFLAGS=-std=c++2a
 
 ifndef MAIN
-  MAIN=./main.cpp
+  MAIN=./assign_a_reference.cpp
 endif
 
 MAINEXECUTABLE=$(subst .cpp,,$(MAIN)).exe
