@@ -7,7 +7,7 @@ CXXFLAGS=-std=c++2a
 RM=rm -f
 
 ifndef MAIN
-  MAIN=./main.cpp
+  MAIN=./throw_an_exception.cpp
 endif
 
 MAINEXECUTABLE=$(subst .cpp,,$(MAIN)).exe
