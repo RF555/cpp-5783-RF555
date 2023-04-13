@@ -1,4 +1,4 @@
-CXX=clang++-9
+CXX=clang++-14
 CXXFLAGS=-std=c++2a
 
 all: 
