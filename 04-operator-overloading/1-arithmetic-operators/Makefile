@@ -2,7 +2,7 @@
 #
 # AUTHOR: Erel Segal-Halevi
 
-CXX=clang++-9
+CXX=clang++-14
 RM=rm -f
 CPPFLAGS=-std=c++2a
 
