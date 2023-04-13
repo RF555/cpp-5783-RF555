@@ -7,7 +7,7 @@ RM=rm -f
 CPPFLAGS=-std=c++2a
 
 ifndef MAIN
-  MAIN=./main.cpp
+  MAIN=./ComplexDemo.cpp
 endif
 
 MAINEXECUTABLE=$(subst .cpp,,$(MAIN)).exe
