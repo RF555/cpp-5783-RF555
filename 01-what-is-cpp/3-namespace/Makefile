@@ -10,3 +10,6 @@ all:
 	# $(CXX) $(CXXFLAGS) $(MAIN)
 	$(CXX) $(CXXFLAGS) *.cpp
 	./a.out
+
+clean:
+	rm -f *.o *.out *.exe test*

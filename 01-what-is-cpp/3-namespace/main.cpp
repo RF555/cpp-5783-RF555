@@ -6,7 +6,10 @@ void printx() {
 }
 
 int main() {
+    std::cout << "printx():\t";
 	printx();
-	::printx();  
-	abc::printx(); 
+    std::cout << "::printx():\t";
+    ::printx();
+    std::cout << "abc::printx():\t";
+    abc::printx();
 }
