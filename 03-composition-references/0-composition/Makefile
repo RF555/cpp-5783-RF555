@@ -8,7 +8,7 @@
 # Based on https://stackoverflow.com/a/2481326/827927
 # AUTHOR: Erel Segal-Halevi
 
-CXX=clang++-9
+CXX=clang++-14
 RM=rm -f
 CPPFLAGS=-std=c++2a
 
