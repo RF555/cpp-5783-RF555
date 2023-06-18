@@ -14,7 +14,7 @@ int main() {
     int age;
     cin >> age;
     cout << endl << "Hello " << name << age << " !" << endl;
-    cout << (1 << 5) << endl;
+    cout << "1 * (2^5) = " << (1 << 5) << endl;
     const auto i = "abc";
     //i = "def";
     //i = 5;  // error

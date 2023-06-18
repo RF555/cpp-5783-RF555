@@ -1,5 +1,5 @@
 #!make -f
-CXX=clang++-9
+CXX=clang++-14
 CXXFLAGS=-std=c++2a 
 
 all: 
@@ -17,3 +17,6 @@ tidyread:
 
 tidyhi:
 	clang-tidy *.cpp -checks=hicpp-* --
+
+clean:
+	rm -f *.o *.out *.exe test*
