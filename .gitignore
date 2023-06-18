@@ -37,3 +37,6 @@
 *.app
 demo
 test
+
+# IDE
+.idea
