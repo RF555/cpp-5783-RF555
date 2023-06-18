@@ -1,6 +1,6 @@
 #!make -f
 
-CXX=clang++-9
+CXX=clang++-14
 CXXFLAGS=-std=c++2a 
 
 ifndef MAIN
@@ -17,3 +17,6 @@ build_safe:  # protect against accidental conversion of a negative number to a l
 
 tidy:
 	clang-tidy *.cpp -checks=*,-modernize-*,-*-magic-* --
+
+clean:
+	rm -f *.o *.out *.exe test*
