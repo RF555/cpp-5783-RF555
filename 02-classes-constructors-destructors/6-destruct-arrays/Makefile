@@ -9,7 +9,7 @@
 # Based on https://stackoverflow.com/a/2481326/827927
 # AUTHOR: Erel Segal-Halevi
 
-CXX=clang++-9
+CXX=clang++-14
 CXXFLAGS=-std=c++2a 
 
 RM=rm -f
